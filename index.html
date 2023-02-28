@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <title>Bora Codar #07- Encontre seu bloco de Carnaval</title>
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
 </head>
 <body>
     <header>
@@ -16,7 +17,23 @@
                 <h1>Encontre os <span>melhores blocos</span> de carnaval de 2023</h1>
             </div>
             <form class="search">
-
+                <div class="search-field">
+                    <label class="sr-only" for="name">Pesquise por nome</label>
+                    <i class="ph-magnifying-glass-light"></i>
+                    <input type="text" id="name" name="name" placeholder="Pesquise por nome">
+                </div>
+                <div class="search-field">
+                    <label class="sr-only" for="city">Selecione uma cidade</label>
+                    <i class="ph-map-pin-light"></i>
+                    <select id="city" name="city">
+                        <option value="0" selected>Selecione uma cidade</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="BA">Salvador</option>
+                    </select>
+                    <i class="ph-caret-down-light"></i>
+                </div>
+                <button>Buscar agora</button>
             </form>
         </div>
 

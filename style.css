@@ -11,6 +11,18 @@
     font-family: "Roboto";
 }
 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
 body {
     font-size: 1.6rem;
 }
@@ -19,6 +31,7 @@ input,
 select,
 button {
     font-family: "Roboto";
+    all: unset;
 }
 
 header {
@@ -89,3 +102,8 @@ form {
     border: 0.1rem solid #EAEAEA;
     border-radius: 10px;
 }
+
+.search-field {
+
+}
+
