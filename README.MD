@@ -7,12 +7,8 @@
 
 <br>
 
-<p align="center">
-  <img alt="app" src=".github/img.png">
-</p>
 
-
-## Bora Codar 05 - Calculadora
+## Bora Codar 07 - Um site de busca de carnaval
 
 ## 🚀 Tecnologias
 
@@ -24,11 +20,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Projeto de front end (apenas template) de uma calculadora
+Projeto de front end (apenas template) de um site de busca de carnaval.
 
-Inspirado na video aula do canal - [Rocketseat](https://)
+![img.png](.github%2Fimg.png)
+![img.png](.github%2Fimg.png)
 
-Figma do projeto - [Aqui](https://www.figma.com/community/file/1202607074523509182)
+Repositorio do desafio - [maykbrito](https://github.com/maykbrito/boracodar/tree/main/07)
+
+Inspirado na video aula do canal - [Rocketseat](https://www.youtube.com/watch?v=gAjetzgneJY)
+
+Figma do projeto - [Aqui](https://www.figma.com/community/file/1207675804423978995)
 
 ## 🚀 Como Rodar
 
